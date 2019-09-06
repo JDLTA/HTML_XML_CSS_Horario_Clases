@@ -1,0 +1,46 @@
+body{
+	background-image: url("../img/img.png"); 
+}
+
+#receso{
+	background-color: black;
+ 	color: #FFFFFFFF;
+ 	font-style: bold;
+ 	font-size: 20px;
+}
+#hora{
+	background-color: black;
+	color:#FFFFFFFF;
+}
+#titulo{
+	background-color: black;
+	color:white;
+	font-size: 20px;
+}
+
+table#tbHorario td.fila_hora{
+    background-color: #E1E1E1;
+}
+table#tbHorario td.tbColumna {
+    font-weight: bold;
+    background-color: #E1E1E1;
+    padding:5px;
+}
+
+table#tbHorario{
+	border-collapse: collapse;
+    border: 1px solid #CCC;
+    font-size: 14px;
+    background-color: #FFFFFFFF;
+    margin: 3% 2% 3% 2%;
+    box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.55);
+}
+
+table#tbHorario td:hover {
+    background-color: red;
+}
+
+table#tbHorario td {
+    padding: 8px 7px 8px 7px;
+    text-align: center;
+}
